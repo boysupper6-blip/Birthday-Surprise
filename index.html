@@ -8,6 +8,9 @@
 </head>
 <body>
 <div class="stars"></div>
+<div class="cute-floaters" aria-hidden="true">
+  <span>♡</span><span>✦</span><span>♡</span><span>✧</span><span>♡</span><span>✦</span>
+</div>
 <main>
 <section class="screen active" id="intro">
 <div class="eyebrow">A tiny corner of the internet</div>
@@ -16,6 +19,7 @@
 <button class="primary" data-next="birthday">Okay, show me →</button>
 <small>made with considerably more effort than a normal birthday text</small>
 </section>
+
 <section class="screen" id="birthday">
 <div class="cake"><i class="flame"></i><i class="candle"></i><i class="top"></i><i class="body"></i><i class="plate"></i></div>
 <div class="eyebrow">Today has one very important notification</div>
@@ -23,12 +27,14 @@
 <p>Welcome to your very own tiny corner of the internet.</p>
 <button class="ghost" data-next="story">There's more →</button>
 </section>
+
 <section class="screen" id="story">
 <div class="chapter">01 / HOW IT STARTED</div><h2>It started with a screen.</h2>
 <p>No dramatic movie scene. No perfectly timed background music. Just two people who happened to meet online... and started talking.</p>
 <blockquote>“And somehow, a random online conversation became months of knowing each other a little better.”</blockquote>
 <button class="primary" data-next="noticed">Keep going →</button>
 </section>
+
 <section class="screen" id="noticed">
 <div class="chapter">02 / THINGS I NOTICED</div><h2>The little things.</h2><p>Tap around. I did, after all, spend time making these.</p>
 <div class="cards">
@@ -38,21 +44,16 @@
 <button class="card" data-note="Sometimes it isn't one big thing. It's all the tiny moments that quietly add up."><b>The little things</b><small>tap me</small></button>
 </div>
 <div class="note" id="note">Choose one above ✦</div>
-<button class="ghost" data-next="casefile">There is, unfortunately, evidence →</button>
+<button class="ghost" data-next="letter">There's one more thing →</button>
 </section>
-<section class="screen" id="casefile">
-<div class="case"><div class="stamp">TOP SECRET</div><div class="chapter">03 / A COMPLETELY UNNECESSARY INVESTIGATION</div>
-<h2>Why is Sania like this? 🧐</h2><p>After extensive and highly scientific research:</p>
-<ul><li>Makes conversations more fun.</li><li>Somehow gets away with being ridiculous.</li><li>Has an unfairly good jolly side.</li><li>Has, on occasion, caused someone to stare at their phone smiling.</li></ul>
-<p class="verdict">Verdict: <b>mildly dangerous to boring days.</b></p></div>
-<button class="primary" data-next="letter">One last thing →</button>
-</section>
+
 <section class="screen" id="letter">
-<div class="chapter">04 / OPEN WHEN READY</div><h2>A letter, because two words felt a little too easy.</h2>
+<div class="chapter">03 / OPEN WHEN READY</div><h2>A letter, because two words felt a little too easy.</h2>
 <button class="envelope" id="open"><span>✉</span><small>For you, Sania.</small></button>
 <p class="tiny">No pressure. Just a little something I wanted you to have.</p>
 <button class="ghost" data-next="final">Skip to the end →</button>
 </section>
+
 <section class="screen" id="final">
 <div class="sparkle">✦</div><h2>Happy Birthday, Sania.</h2>
 <p>I hope this year gives you plenty of reasons to laugh, plenty of moments worth remembering, and a few surprises you never saw coming.</p>
@@ -60,6 +61,7 @@
 <button class="ghost" id="replay">↻ Start again</button>
 </section>
 </main>
+
 <div class="modal" id="modal">
 <article><button class="close" id="close">×</button><small>FOR SANIA</small><h3>Dear Sania,</h3>
 <p>I don't know exactly when a random person on the internet stopped feeling random.</p>
